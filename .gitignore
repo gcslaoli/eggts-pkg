@@ -9,6 +9,7 @@ logs/
 .vscode
 *.swp
 *.lock
+!pkg-entry.js
 *.js
 !.autod.conf.js
 
