@@ -1,11 +1,20 @@
 # eggts-pkg
-一个使用pkg打包eggjs(ts版本)的示例
+
+一个使用 pkg 打包 eggjs(ts 版本)的示例
+
 ## 初始化项目
+
+### 1.0.0-使用脚手架初始化 eggjs 项目
+
 ```shell
 npm init egg --type=ts
 ```
 
+### 1.0.1-安装依赖
 
+```shell
+npm i
+```
 
 ## QuickStart
 
