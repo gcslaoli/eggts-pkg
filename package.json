@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "bin": "pkg-entry.js",
+  "pkg": {
+    "scripts": [
+      "./app/**/*.js",
+      "./config/**/*.js"
+    ],
+    "assets": [
+      "./app/public/**/*",
+      "./node_modules/nanoid/**/*.js"
+    ]
+  },
   "egg": {
     "typescript": true,
     "declarations": true
