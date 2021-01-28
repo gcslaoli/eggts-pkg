@@ -16,6 +16,12 @@ npm init egg --type=ts
 npm i
 ```
 
+### 1.0.2-测试运行
+
+```shell
+npm run dev
+```
+
 ## QuickStart
 
 ### Development
