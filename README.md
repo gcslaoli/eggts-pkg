@@ -22,6 +22,20 @@ npm i
 npm run dev
 ```
 
+### 1.0.3创建测试用静态文件并配置 egg-etag
+
+```shell
+npm install egg-etag
+```
+
+在`plugin.ts`中增加配置启用`egg-etag`
+
+```ts
+  etag: {
+    package: 'egg-etag',
+  },
+```
+
 ## QuickStart
 
 ### Development

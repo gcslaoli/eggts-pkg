@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "egg": "^2.6.1",
+    "egg-etag": "^1.1.0",
     "egg-scripts": "^2.6.0"
   },
   "devDependencies": {
